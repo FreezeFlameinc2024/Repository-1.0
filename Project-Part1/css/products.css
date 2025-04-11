@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Randy Freese - CSS Document -Common Header/Footer/Nav#-PROJECT*- Date:Mar.28.2025/
+/*Remember to use layout and style seperately*/
+/* html or * works for the whole doc*/
+/*Border-box to reset html defaults*/
+
+/* Main, Sections */
+/* Section 1:Music Products Full Length Releases (2020s) */
+.product1 {
+  display: grid;
+  grid-template-columns: 7fr;
+  justify-content: center;
+  gap: 1em 1em;
+
+  padding: 5em 5em;
+  margin-left: 0.01em;
+}
+.product1 img {
+  max-width: 105%;
+  max-height: 105%;
+}
+
+/* Section 2: Extended Play & Collaborative */
+.product2 {
+  display: grid;
+  grid-template-columns: 7fr;
+  justify-content: center;
+  gap: 1em 1em;
+
+  padding: 5em 5em;
+  margin-left: 0.01em;
+}
+.product2 img {
+  max-width: 105%;
+  max-height: 105%;
+}
+
+/* Section 3: Studio Services */
+.product3 {
+  display: grid;
+  grid-template-columns: 7fr;
+  justify-content: center;
+  gap: 1em 1em;
+
+  padding: 5em 5em;
+  margin-left: 0.01em;
+}
+
+/* Tables: */
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+
+  margin: 0.5em 5em;
+}
+caption {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0.2em 0.2em;
+}
